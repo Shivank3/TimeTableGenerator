@@ -44,7 +44,7 @@ public class Program
 
         var grid = generator.Generate(input);
 
-        TimeTablePrinter.PrintWithBorders(grid);
+        TimeTablePrinter.Print(grid);
     }
 
     static int PromptInt(string message, int min, int max)
